@@ -9,7 +9,9 @@
   <body>
 
 whats 3×3
-    <button onclick="printMessage(correct)">9</button>
+    <button id="btn">9</button>
+
+    
     
 
 
@@ -18,7 +20,10 @@ whats 3×3
 
 
     
-    <script src="script.js"></script>
+    <script src="script.js">var btn=document.getElementById("btn")
+    btn.onclick=function(){
+      alert("correct")
+    }</script>
   </body>
 
 </html>
