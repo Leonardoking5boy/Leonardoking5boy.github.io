@@ -3,6 +3,7 @@
   background-color: #3399ff;
   padding: 0px;
   margin: 
+  overflow: hidden;
     
 }
 .nav4 a{
@@ -13,7 +14,7 @@ display: block;
 text-align: center;
 }
 .nav4 li{
-  
+  float: left;
 
   
 }
